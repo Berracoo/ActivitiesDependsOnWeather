@@ -9,7 +9,7 @@ public class Main {
         int degree = input.nextInt();
         System.out.println();
         input.close();
-      int x,y;
+      int x;
       x = degree < 5 ? 1 : degree > 5 && degree < 15 ? 2 : degree > 15 && degree < 25 ? 3 : 4;
       switch(x){
           case 1:
