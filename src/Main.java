@@ -8,10 +8,13 @@ public class Main {
         System.out.println();
         if(degree < 5){
             System.out.println("The weather is perfect for skiing !");
-        }else if(degree > 5 && degree < 15){
-            System.out.println("How about going to a cinema ?");
-            if(10 < degree && 25 > degree){
+        }else if(degree > 5 && degree < 25){
+              if( 15 >= degree){
+                System.out.println("How about going to a cinema ?");
+              
+            }if(degree >= 10){
                 System.out.println("A picnic would be great after a good movie");
+                
             }
 
         }else{
