@@ -13,7 +13,7 @@ public class Main {
                 System.out.println("How about going to a cinema ?");
               
             }if(degree >= 10){
-                System.out.println("A picnic would be great after a good movie");
+                System.out.println("A picnic would be great !);
                 
             }
 
